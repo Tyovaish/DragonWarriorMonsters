@@ -9,16 +9,14 @@ public class BattleSystem {
     public static void enterBattle(ArrayList<Monster> playerMonsters, ArrayList<Monster> enemyMonsters){
         while(checkIfOneMonstersIsAlive(playerMonsters)&&checkIfOneMonstersIsAlive(enemyMonsters)){
             ArrayList<Monster> currentMonsterTurnList=createMonsterTurnList(playerMonsters,enemyMonsters);
-
             MenuSystem.displayMonsterStatuses(playerMonsters,enemyMonsters);
             while(!currentMonsterTurnList.isEmpty()) {
                 Monster nextMonsterToAttack = getNextAttackingMonster(currentMonsterTurnList);
-                Monster toBeAttacked;
-                if(playerMonsters.contains(nextMonsterToAttack)){
-                    toBeAttacked=enemyMonsters.get(0);
+                int monsterToBeAttacked=MenuSystem.displayMonsterChoices(nextMonsterToAttack,playerMonsters,enemyMonsters);
+
+                if(playerMonsters.contains(nextMonsterToAttack))
                    damageToMonster(nextMonsterToAttack,toBeAttacked);
                 } else{
-                    toBeAttacked=playerMonsters.get(0);
                     damageToMonster(nextMonsterToAttack,toBeAttacked);
                 }
                 if(toBeAttacked.isDead()){
