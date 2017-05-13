@@ -2,9 +2,340 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6efa2d67-77f5-4450-aa24-bf711b6f1853" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/1eyeclown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/agdevil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/akubar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/almiraj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/amberweed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/andreal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/anemon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/angleron.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/antbear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/aquadon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/aquahawk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/aquarella.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/arcdemon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/armorpede.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/armorpion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/armyant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/armycrab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/arrowdog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/asurazoma.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/axeshark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/ayabou.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/azurile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/babble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/balzak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/baramos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/battlerex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/beanman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/beastnite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/beavern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/belzebub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/bigeye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/bigroost.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/blizzardy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/bombcrag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/boneslave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/bosstroll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/boxslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/brushead.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/bubblemon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/bullbird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/butterfly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/cactiball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/cancerman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/captdead.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/catapila.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/catfly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/catmage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/centasaur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/chamelgon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/chopclown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/clawster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/cloudking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/coatol.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/coilbird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/copycat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/cragdevil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/crestpent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/curselamp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dancevegi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/darck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/darkcrab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/darkdrium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/darkeye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/darkhorn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/darkmate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/deadnite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/deadnoble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/deathmore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/deathmore2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/deathmore3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/demonite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/devipine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/digong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/digster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dimensaur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/divinegon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dracky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dracolord.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dracolord2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dragon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dragonkid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/drakslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/droll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/drygon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/duckkite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/dumbira.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/durran.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/egdracil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/eggplaton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/emyu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/esterk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/evilarmor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/evilbeast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/evilpot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/evilseed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/evilwand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/evilwell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/exaucers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/eyeball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/eyeder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/facer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/facetree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/fairydrak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/fairyrat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/fangslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/fireweed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/fishrider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/florajay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/floraman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/foxfire.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/funkybird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gamanian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gasgon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gateguard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/genosidoh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/ghostree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/giantmoth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/giantslug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/giantworm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gigadraco.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gigantes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gismo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/goategon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/goathorn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gohopper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/goldgolem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/goldslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/golem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/goopi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gophecada.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gorago.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/grakos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/granslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/greatdrak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gremlin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/grendal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/grizzly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/guardian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gulpbeast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/gulpple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/haloslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/hammerman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/hargon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/healer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/herbman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/hoodsquid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/hork.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/hornbeet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/iceman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/inverzon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/ironturt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/jamirus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/jewelbag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/kagebou.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/kingcobra.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/kingleo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/kingslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/kingsquid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/kitehawk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lampgenie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/landowl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lavaman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lazamanus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lionex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lipsy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lizardfly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lizardman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/lorddraco.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madcandle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madcat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madcondor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/maddragon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madgoose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madgopher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madhornet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madknight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madmirror.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madpecker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madplant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madraven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/madspirit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/maneater.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/medusaeye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/merman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mertiger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/metabble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/metaldrak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/metalking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/metaly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mimeslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mimic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/minidrak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mirudraas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mirudraas2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mistywing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mommonja.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/moray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/muddoll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mudou.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mudron.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/multieyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/mummy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/niterich.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/nitewhip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/noctoking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/octogon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/octokid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/octoraid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/octoreach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/ogre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/oniono.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/orc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/orgodemir.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/orgodemir2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/orligon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/orochi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pearlgel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/petiteel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/phoenix.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/picky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pillowrat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pixy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pizzaro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/poisongon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pompombom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/poseidon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/protomech.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/psychopiz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pteranod.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pumpoise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/puppetor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/putrefish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/putrepup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/pyuro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/rainhawk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/ramia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/rayburn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/raygigas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/reaper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/roboster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/roboster2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/rockslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/roguenite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/roguewave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/rosevine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/rotraven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/rushfish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/sabreman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/saccer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/scallopa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/seahorse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/serpentia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/servant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/shantak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/sickler.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/sidoh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/skeletor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/skularach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/skullgon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/skullroo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/skulpent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/skulrider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/skydragon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/slabbit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/slime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/slimeborg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/slimenite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/slurperon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/snaily.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/snakebat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/snapper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/spikerous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/spikyboy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/spooky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/spotking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/spotslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/stagbug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/starfish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/stoneman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/stubbird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/stubsuck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/superten.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/swordgon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/taileater.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/titanis.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/toadstool.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/tonguella.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/tortragon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/treeboy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/treeslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/tropicgel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/trumpeter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/unicorn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/vampirus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/voodoll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/walrusman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/warmantis.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/warubou.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/watabou.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/weedbug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/whalemage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/whipbird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/whiteking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/wildape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/windbeast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/wingslime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/wingsnake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/wingtree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/wonderegg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/wyvern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/yeti.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/zapbird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/zoma.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleSprites/zomasdevil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ButtonHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Layout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Menu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MonsterStats.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TextBox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Window.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/BattleSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/JourneySystem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/MenuSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BattleSystem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/JourneySystem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MenuSystem.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Monster.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Monster.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/MonsterFactory.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/MonsterFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BattleSystem.java" afterPath="$PROJECT_DIR$/src/BattleSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuSystem.java" afterPath="$PROJECT_DIR$/src/MenuSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Game.java" afterPath="$PROJECT_DIR$/src/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Monster.java" afterPath="$PROJECT_DIR$/src/Monster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MonsterFactory.java" afterPath="$PROJECT_DIR$/src/MonsterFactory.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +351,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="MenuSystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MenuSystem.java">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="846">
+              <caret line="98" column="41" lean-forward="true" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,12 +363,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <file leaf-file-name="GAMEFONT.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Buttons/GAMEFONT.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layout.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Layout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1221">
+              <caret line="51" column="78" lean-forward="false" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
+              <folding>
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextBox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TextBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="789">
+              <caret line="79" column="41" lean-forward="false" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2683#2684#0" expanded="true" />
+                <element signature="e#2704#2705#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,28 +410,43 @@
       <file leaf-file-name="Monster.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="594">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonsterFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MonsterFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MonsterFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonsterInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MonsterInfo.java">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="-58">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ButtonHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -82,37 +462,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BreedingSystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BreedingSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JourneySystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JourneySystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BattleSystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BattleSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="14" column="121" lean-forward="false" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>currentHP</find>
+      <find>xPosition</find>
+      <find>len</find>
+      <find>setX</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,14 +492,24 @@
       <list>
         <option value="$PROJECT_DIR$/src/BattleSystem.java" />
         <option value="$PROJECT_DIR$/src/MenuSystem.java" />
+        <option value="$PROJECT_DIR$/src/MonsterStats.java" />
+        <option value="$PROJECT_DIR$/src/Monster.java" />
+        <option value="$PROJECT_DIR$/src/MonsterFactory.java" />
+        <option value="$PROJECT_DIR$/src/Window.java" />
+        <option value="$PROJECT_DIR$/src/battleSprites/TextBox.java" />
+        <option value="$PROJECT_DIR$/src/ButtonHandler.java" />
+        <option value="$PROJECT_DIR$/src/battleSprites/Menu.java" />
+        <option value="$PROJECT_DIR$/src/Menu.java" />
+        <option value="$PROJECT_DIR$/src/TextBox.java" />
+        <option value="$PROJECT_DIR$/src/Layout.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
-    <option name="width" value="3226" />
-    <option name="height" value="1746" />
+    <option name="x" value="-11" />
+    <option name="width" value="3214" />
+    <option name="height" value="1731" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -151,7 +526,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,22 +539,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonWarriorMonsters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonWarriorMonsters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonWarriorMonsters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonWarriorMonsters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Buttons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonWarriorMonsters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonWarriorMonsters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battleSprites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOPCiv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Trevor\IdeaProjects\DragonWarriorMonsters\src" />
       <recent name="C:\Users\Trevor\IdeaProjects\DragonWarriorMonsters" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Trevor\IdeaProjects\DragonWarriorMonsters\src\Buttons" />
+      <recent name="C:\Users\Trevor\IdeaProjects\DragonWarriorMonsters\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Game">
@@ -425,38 +854,68 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3226" height="1746" extended-state="6" />
+    <frame x="-11" y="0" width="3214" height="1731" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296417" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33289474" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12452949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296417" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296417" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -472,21 +931,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MenuSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/BreedingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JourneySystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/BattleSystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/MenuSystem.java" />
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -502,7 +963,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -526,41 +990,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JourneySystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BattleSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="14" column="121" lean-forward="false" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JourneySystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/BattleSystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/MenuSystem.java" />
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -576,7 +1018,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,23 +1045,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JourneySystem.java">
+    <entry file="file://$PROJECT_DIR$/src/JourneySystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/BattleSystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/BattleSystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/MenuSystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/JourneySystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/BreedingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BattleSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/orgodemir2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="313">
+          <caret line="1785" column="0" lean-forward="false" selection-start-line="1785" selection-start-column="0" selection-end-line="1785" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/zoma.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/cactiball.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/floraman.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/florajay.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/gateguard.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buttons/FIGHT_BUTTON.PNG" />
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/TextBox.java" />
+    <entry file="file://$PROJECT_DIR$/src/Buttons/Y.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleSprites/Menu.java" />
+    <entry file="file://$PROJECT_DIR$/src/Buttons/Z.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39732">
+          <caret line="1300" column="0" lean-forward="false" selection-start-line="1300" selection-start-column="0" selection-end-line="1300" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -628,57 +1125,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BreedingSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JourneySystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BattleSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="14" column="121" lean-forward="false" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuSystem.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MonsterStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ButtonHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buttons/GAMEFONT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MonsterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -686,11 +1181,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MonsterFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/TextBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="789">
+          <caret line="79" column="41" lean-forward="false" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2683#2684#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="98" column="41" lean-forward="true" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Layout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="51" column="78" lean-forward="false" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
+          <folding>
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
