@@ -4,6 +4,7 @@ import Model.Monster.Monster;
 import Model.Monster.MonsterObserver;
 import Model.Player;
 import Model.Skill.Skill;
+import Model.Skill.SkillList;
 
 import java.util.ArrayList;
 
@@ -27,7 +28,7 @@ public class BattleMediator {
 
     }
     public ArrayList<MonsterTurn> getCurrentMonsterSkills(){
-        ArrayList<Skill> skills=playerMonsters.get(currentMonsterIndex).getAllSkills();
+       SkillList skills=playerMonsters.get(currentMonsterIndex).getAllSkills();
         ArrayList<MonsterTurn> monsterTurns=new ArrayList<MonsterTurn>();
         for(int i=0;i<skills.size();i++){
             MonsterTurn monsterTurn=new MonsterTurn();

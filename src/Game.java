@@ -3,6 +3,8 @@
  * Created by Trevor Yovaish on 3/4/2017.
  */
 
+import Model.Attributes.Attribute;
+import Model.Monster.Monster;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -34,14 +36,20 @@ public class Game extends Application{
     public void start(Stage primaryStage) {
         Label btn = new Label();
         btn.setFont(gameboyFont);
-        btn.setText("FIGHT");
+        Monster monster=new Monster();
+        monster.addAttribute(new Attribute("HP",12));
+        btn.setText(String.valueOf(monster.getMaxHPStat()));
+        btn.setLayoutX(0);
         btn.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
                 System.out.println("Fight");
+                monster.setMaxHPStat(monster.getMaxHPStat()-1);
+                System.out.println(monster.getMaxHPStat());
+                btn.setText(String.valueOf(monster.getMaxHPStat()));
+                System.out.println(0);
             }
         });
-        btn.setLayoutX(0);
         btn.setLayoutY(2*SCENE_LENGTH/3);
         btn.setPrefSize(SCENE_WIDTH/4,SCENE_WIDTH/8);
         btn.setFont(gameboyFont);
