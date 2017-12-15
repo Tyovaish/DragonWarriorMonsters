@@ -3,117 +3,90 @@
  * Created by Trevor Yovaish on 3/4/2017.
  */
 
-import javax.imageio.ImageIO;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.image.BufferStrategy;
-import java.awt.image.BufferedImage;
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.StackPane;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
 import java.io.File;
-import java.io.IOException;
+import java.net.MalformedURLException;
 
-public class Game extends Canvas implements Runnable {
-    private boolean running=false;
-    private Thread thread;
-    public synchronized void start(){
-        if(running){
-            return;
-        }
-        running=true;
-        thread=new Thread(this);
-        thread.start();
+
+public class Game extends Application{
+    final static Font gameboyFont=Font.loadFont("file:C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\Font\\GameBoy.ttf", 50);
+    public final int SCENE_WIDTH=1000;
+    public final int SCENE_LENGTH=1000;
+    @Override
+    public void init() throws Exception{
+
     }
-    public void run() {
-        long lastTime = System.nanoTime();
-        double amountOfTicks = 60.0;
-        double ns = 1000000000 / amountOfTicks;
-        double delta = 0;
-        long timer = System.currentTimeMillis();
-        int updates = 0;
-        int frames = 0;
-        while(running){
-            long now = System.nanoTime();
-            delta += (now - lastTime) / ns;
-            lastTime = now;
-            while(delta >= 1){
-                tick();
-                updates++;
-                delta--;
+    @Override
+    public void start(Stage primaryStage) {
+        Label btn = new Label();
+        btn.setFont(gameboyFont);
+        btn.setText("FIGHT");
+        btn.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println("Fight");
             }
-            try {
-                thread.sleep(10);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        });
+        btn.setLayoutX(0);
+        btn.setLayoutY(2*SCENE_LENGTH/3);
+        btn.setPrefSize(SCENE_WIDTH/4,SCENE_WIDTH/8);
+        btn.setFont(gameboyFont);
+        Label text=new Label();
+        text.setFont(gameboyFont);
+        text.setText("HP");
+        Group root = new Group();
+        StackPane holder = new StackPane();
+        holder.setPrefSize(300,300);
+        // load the image
+        File file = new File("C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\Model\\Monster\\MonsterAssets\\battleSprites\\akubar.png");
+        Image image = new Image(file.toURI().toString());
+        ImageView imageView=new ImageView();
+        imageView.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println("Attacking akubar");
             }
-            try {
-                render();
-            } catch (IOException e) {
-                e.printStackTrace();
+        });
+        imageView.setImage(image);
+        imageView.setX(0);
+        imageView.setY(SCENE_WIDTH/3-100);
+        imageView.setFitHeight(SCENE_WIDTH/3);
+        imageView.setFitWidth(SCENE_WIDTH/3);
+        File file2 = new File("C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\Model\\Monster\\MonsterAssets\\battleSprites\\andreal.png");
+        Image image2 = new Image(file2.toURI().toString());
+        ImageView imageView2=new ImageView();
+        imageView2.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println("Attacking akubar");
             }
-            frames++;
-
-            if(System.currentTimeMillis() - timer > 1000){
-                timer += 1000;
-                System.out.println("FPS: " + frames + " TICKS: " + updates);
-                frames = 0;
-                updates = 0;
-            }
-        }
+        });
+        imageView2.setImage(image2);
+        imageView2.setX(SCENE_LENGTH/3);
+        imageView2.setY(SCENE_WIDTH/3-100);
+        imageView2.setFitHeight(SCENE_WIDTH/3);
+        imageView2.setFitWidth(SCENE_WIDTH/3);
+        // simple displays ImageView the image as is
+        root.getChildren().addAll(btn,imageView,imageView2,text);
+        Scene scene = new Scene(root, SCENE_WIDTH, SCENE_LENGTH);
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
-
-    private void tick() {
-    }
-
-    private void  render() throws IOException {
-        BufferStrategy bs= this.getBufferStrategy();
-        if(bs==null){
-            this.createBufferStrategy(3);
-            return;
-
-        }
-        Graphics g=bs.getDrawGraphics();
-            g.setColor(Color.white);
-            g.fillRect(0, 0, getWidth(), getHeight());
-            BufferedImage monster1 = ImageIO.read(new File("C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\battleSprites\\andreal.png"));
-            g.drawImage(monster1, getWidth() / 3, getHeight() / 3, getWidth() / 3, getHeight() / 3, null);
-            BufferedImage monster2 = ImageIO.read(new File("C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\battleSprites\\gateguard.png"));
-            g.drawImage(monster2, 2 * getWidth() / 3, getHeight() / 3, getWidth() / 3, getHeight() / 3, null);
-            BufferedImage monster3 = ImageIO.read(new File("C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\battleSprites\\metaly.png"));
-            g.drawImage(monster3, 0, getHeight() / 3, getWidth() / 4, getHeight()/3, null);
-        Menu menu1=new Menu(g,0,0);
-        menu1.addString("THEBOSS%HP:100%MP:100" );
-        Menu menu2=new Menu(g,0,0);
-        menu2.addString("TYLER%HP:100%MP:90");
-        Layout layout =new Layout();
-        layout.addComponent(menu1);
-        layout.addComponent(menu2);
-        layout.setXPosition(0);
-        layout.setYPosition(0);
-        layout.setColumns(3);
-        layout.setWidth(getWidth());
-        layout.setTextSize(getWidth()/30);
-        layout.display();
-        Layout layout2=new Layout();
-        Menu fight=new Menu(g,0,0);
-        Menu item=new Menu(g,0,0);
-        item.addString("ITEM%RUN");
-        fight.addString("FIGHT%COMMAND");
-        layout2.addSelector();
-        layout2.addComponent(fight);
-        layout2.addComponent(item);
-        layout2.setXPosition(20);
-        layout2.setYPosition(2*getHeight()/3+50);
-        layout2.setColumns(2);
-        layout2.setWidth(getWidth()/2);
-        layout2.setTextSize(getWidth()/30);
-        layout2.display();
-
-        g.dispose();
-        bs.show();
-    }
-
-
-
-    public static void main(String args[]){
-        new Window(800,600,"Dragon Warrior Monsters Sim",new Game());
+    public static void main(String[] args) {
+        launch(args);
     }
 }
