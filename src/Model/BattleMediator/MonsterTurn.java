@@ -18,7 +18,7 @@ public class MonsterTurn {
         this.skill=skill;
     }
     public int getSpeed(){
-        return (int) attackingMonster.getAttribute("AGI").getAttributeValue();
+        return (int) attackingMonster.getAgilityStat();
     }
     public void execute(){
 
