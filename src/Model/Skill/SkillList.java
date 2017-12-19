@@ -6,7 +6,7 @@ public class SkillList {
     ArrayList<Skill> skills=new ArrayList<Skill>();
     public Skill getSkill(String skillName){
         for(int i=0;i<skills.size();++i){
-            if(skills.get(i).getSkillName()==skillName){
+            if(skills.get(i).getSkillName().compareTo(skillName)==0){
                 return skills.get(i);
             }
         }
@@ -18,7 +18,7 @@ public class SkillList {
     }
     public void removeSkill(String skillName){
         for(int i=0;i<skills.size();++i){
-            if(skills.get(i).getSkillName() == skillName){
+            if(skills.get(i).getSkillName().compareTo(skillName)==0){
                 skills.remove(i);
             }
         }

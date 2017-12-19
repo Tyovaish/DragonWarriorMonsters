@@ -13,4 +13,7 @@ public class Player {
     public ArrayList<Monster> getMonsters(){
         return monsters;
     }
+    public void addMonster(Monster monster){
+        monsters.add(monster);
+    }
 }
