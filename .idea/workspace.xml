@@ -2,37 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6efa2d67-77f5-4450-aa24-bf711b6f1853" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Monster/MonsterAssets/FileParsers/MonsterGrowthFileParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Monster/MonsterAssets/FileParsers/MonsterStatFileParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Scenes/Scene.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/FileParserTest/MonsterStatFileParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/MonsterTest/MonsterObserverTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/SceneTest/FightSceneTest/FightSceneTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Scenes/FightScene.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Scenes/FightScene.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game$1.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game$2.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game$3.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Game.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Monster/MonsterAttributeLabel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Attributes/AttributeList.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Attributes/AttributeList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/BattleMediator/BattleMediator.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/BattleMediator/BattleMediator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/BattleMediator/MonsterTurn.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/BattleMediator/MonsterTurn.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Monster/Monster.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Monster/Monster.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Monster/MonsterFactory/MonsterBuilder.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Monster/MonsterFactory/MonsterBuilder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Monster/MonsterObserver.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Monster/MonsterObserver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Player.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Skill/Skill.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Skill/Skill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Skill/SkillList.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Model/Skill/SkillList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Scenes/FightScene/FightScene.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Scenes/FightScene/FightScene.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Scenes/FightScene/FightSceneController.class" afterPath="$PROJECT_DIR$/out/production/DragonWarriorMonsters/Scenes/FightScene/FightSceneController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Game.java" afterPath="$PROJECT_DIR$/src/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Attributes/AttributeList.java" afterPath="$PROJECT_DIR$/src/Model/Attributes/AttributeList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/BattleMediator/BattleMediator.java" afterPath="$PROJECT_DIR$/src/Model/BattleMediator/BattleMediator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/BattleMediator/MonsterTurn.java" afterPath="$PROJECT_DIR$/src/Model/BattleMediator/MonsterTurn.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Monster/Monster.java" afterPath="$PROJECT_DIR$/src/Model/Monster/Monster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java" afterPath="$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Monster/MonsterObserver.java" afterPath="$PROJECT_DIR$/src/Model/Monster/MonsterObserver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Player.java" afterPath="$PROJECT_DIR$/src/Model/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Skill/Skill.java" afterPath="$PROJECT_DIR$/src/Model/Skill/Skill.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Skill/SkillList.java" afterPath="$PROJECT_DIR$/src/Model/Skill/SkillList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java" afterPath="$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java" afterPath="$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="FightScene.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FightScene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="424">
+              <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scenes/Scene.java">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="11679">
+              <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +64,8 @@
       <file leaf-file-name="FightSceneController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <file leaf-file-name="FightSceneTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/SceneTest/FightSceneTest/FightSceneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+            <state relative-caret-position="374">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,28 +85,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonsterObserverTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/MonsterTest/MonsterObserverTest.java">
+      <file leaf-file-name="MonsterTurn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/BattleMediator/MonsterTurn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BattleMediator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Model/BattleMediator/BattleMediator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="27" column="81" lean-forward="false" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,17 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Skill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Skill/Skill.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <caret line="16" column="82" lean-forward="false" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -147,10 +108,12 @@
       <file leaf-file-name="Monster.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Monster/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2252#2253#0" expanded="true" />
+                <element signature="e#2320#2321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,9 +122,35 @@
       <file leaf-file-name="MonsterObserver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="432">
+              <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributeList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Attributes/AttributeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonsterAttributeLabel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterAttributeLabel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,8 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Player.java" />
-        <option value="$PROJECT_DIR$/src/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/Scene/BattleScene/EnemyMonsterSpriteDisplay.java" />
         <option value="$PROJECT_DIR$/src/Controller/BattleController.java" />
         <option value="$PROJECT_DIR$/src/Scene/Scene.java" />
@@ -238,29 +225,31 @@
         <option value="$PROJECT_DIR$/src/Model/Monster/MonsterAssets/FileParser.java" />
         <option value="$PROJECT_DIR$/src/Model/Monster/MonsterAssets/MonsterStats.txt" />
         <option value="$PROJECT_DIR$/src/Model/WorldInfo/World1" />
-        <option value="$PROJECT_DIR$/src/Model/BattleMediator/MonsterTurn.java" />
         <option value="$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterAbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterFactory.java" />
         <option value="$PROJECT_DIR$/src/Model/Monster/MonsterAssets/FileParsers/MonsterGrowthFileParser.java" />
-        <option value="$PROJECT_DIR$/src/Model/Attributes/AttributeList.java" />
         <option value="$PROJECT_DIR$/src/Model/Skill/SkillList.java" />
         <option value="$PROJECT_DIR$/src/Test/FileParserTest/MonsterStatFileParserTest.java" />
         <option value="$PROJECT_DIR$/src/Test/MonsterStatFileParserTest.java" />
         <option value="$PROJECT_DIR$/src/Scenes/Scene.java" />
         <option value="$PROJECT_DIR$/src/Test/SceneTest/FightSceneTest.java" />
         <option value="$PROJECT_DIR$/src/Model/Player.java" />
-        <option value="$PROJECT_DIR$/src/Model/Monster/MonsterObserver.java" />
         <option value="$PROJECT_DIR$/src/Test/MonsterTest/MonsterObserverTest.java" />
         <option value="$PROJECT_DIR$/src/Model/Monster/MonsterAssets/FileParsers/MonsterStatFileParser.java" />
         <option value="$PROJECT_DIR$/src/Game.java" />
-        <option value="$PROJECT_DIR$/src/Model/Monster/Monster.java" />
         <option value="$PROJECT_DIR$/src/Test/SceneTest/FightSceneTest/FightSceneTest.java" />
         <option value="$PROJECT_DIR$/src/Scenes/FightScene.java" />
-        <option value="$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java" />
-        <option value="$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java" />
         <option value="$PROJECT_DIR$/src/Model/Skill/Skill.java" />
-        <option value="$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Model/Monster/MonsterStatLabel.java" />
         <option value="$PROJECT_DIR$/src/Model/BattleMediator/BattleMediator.java" />
+        <option value="$PROJECT_DIR$/src/Model/Attributes/AttributeList.java" />
+        <option value="$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java" />
+        <option value="$PROJECT_DIR$/src/Model/Monster/Monster.java" />
+        <option value="$PROJECT_DIR$/src/Model/BattleMediator/MonsterTurn.java" />
+        <option value="$PROJECT_DIR$/src/Model/Monster/MonsterAttributeLabel.java" />
+        <option value="$PROJECT_DIR$/src/Model/Monster/MonsterObserver.java" />
+        <option value="$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java" />
       </list>
     </option>
   </component>
@@ -284,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,6 +297,13 @@
               <item name="DragonWarriorMonsters" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Attributes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DragonWarriorMonsters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DragonWarriorMonsters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="BattleMediator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,6 +312,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Monster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DragonWarriorMonsters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DragonWarriorMonsters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Monster" type="462c0819:PsiDirectoryNode" />
+              <item name="MonsterFactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DragonWarriorMonsters" type="b2602c69:ProjectViewProjectNode" />
@@ -333,9 +338,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -697,7 +701,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -705,7 +708,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -765,7 +768,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -774,20 +777,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/scene/image/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1114" column="0" lean-forward="false" selection-start-line="1114" selection-start-column="0" selection-end-line="1114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/scene/canvas/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="114" column="9" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PracticeGUI.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -859,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Attributes/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterAssets/battleSprites/1eyeclown.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -884,19 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#448#449#0" expanded="false" />
-            <element signature="e#485#486#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -908,9 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="91" lean-forward="false" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="67" lean-forward="false" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,17 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Attributes/AttributeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,30 +945,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/BattleMediator/MonsterTurn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/SceneTest/FightSceneTest/FightSceneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/MonsterTest/MonsterObserverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1023,37 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1065,40 +970,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Monster/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="false" />
+            <element signature="e#485#486#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/BattleMediator/BattleMediator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="92">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Attributes/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Attributes/AttributeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/SceneTest/FightSceneTest/FightSceneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11679">
+          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterFactory/MonsterBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="82" lean-forward="false" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/FightScene/FightSceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Monster/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2252#2253#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/BattleMediator/MonsterTurn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="81" lean-forward="false" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterAttributeLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Monster/MonsterObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/FightScene/FightScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

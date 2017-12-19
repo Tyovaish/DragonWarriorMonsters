@@ -38,16 +38,20 @@ public class BattleMediator {
         return monsterObservers;
     }
     public void autoFight(){
-        for(int i=0;i<playerMonsters.size();i++){
-        }
+            playerMonsterTurns.add(new MonsterTurn(playerMonsters.get(0),enemyMonsters.get(0),playerMonsters.get(0).getSkill("physical")));
+            enemyMonsterTurns.add(new MonsterTurn(enemyMonsters.get(0),playerMonsters.get(0),enemyMonsters.get(0).getSkill("physical")));
+            executeBattle(setMoveOrder());
 
     }
     private ArrayList<MonsterTurn> setMoveOrder(){
-            return null;
+        return playerMonsterTurns;
     }
-
     private void addEnemyMonsterMoves(){
 
+    }
+    public void executeBattle(ArrayList<MonsterTurn> monsterTurns){
+            playerMonsterTurns.get(0).execute();
+            enemyMonsterTurns.get(0).execute();
     }
 
 

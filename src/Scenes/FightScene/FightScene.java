@@ -18,14 +18,13 @@ public class FightScene implements Scene {
     BattleMediator battleMediator=null;
     ArrayList<MonsterObserver> enemyMonstersSpritesToDisplay=null;
     ArrayList<MonsterObserver> playerMonstersStatsToDisplay=null;
-    HashMap<MonsterObserver,Group> monsterObserverToMonsterStatDisplay=new HashMap<>();
     FightSceneController fightSceneController=null;
     public FightScene(BattleMediator battleMediator){
         this.fightScene=new Group();
         this.battleMediator=battleMediator;
         this.enemyMonstersSpritesToDisplay=battleMediator.getEnemyMonsterObservers();
         this.playerMonstersStatsToDisplay=battleMediator.getPlayerMonsterObservers();
-        this.fightSceneController=new FightSceneController(fightScene,battleMediator);
+        this.fightSceneController=new FightSceneController(this,battleMediator);
         addEnemyMonsterSprites();
         addPlayerMonsterStats();
     }
@@ -48,41 +47,29 @@ public class FightScene implements Scene {
         for(int i=0;i<playerMonstersStatsToDisplay.size();i++){
             Group monsterStatDisplay=new Group();
             monsterStatDisplay.setLayoutX(i*SCENE_WIDTH/3);
-            Label monsterName=new Label();
-            monsterName.setText(String.valueOf(playerMonstersStatsToDisplay.get(i).getMonsterName()));
-            monsterName.setLayoutY(0);
-            monsterName.setFont(gameboyFont);
-            Label monsterHP=new Label();
-            monsterHP.setText("HP: "+String.valueOf(playerMonstersStatsToDisplay.get(i).getCurrentHPStat()));
-            monsterHP.setLayoutY(SCENE_LENGTH/16);
-            monsterHP.setFont(gameboyFont);
-            Label monsterMP=new Label();
-            monsterMP.setText("MP: "+String.valueOf(playerMonstersStatsToDisplay.get(i).getCurrentMPStat()));
-            monsterMP.setLayoutY(2*SCENE_LENGTH/16);
-            monsterMP.setFont(gameboyFont);
-            monsterStatDisplay.getChildren().addAll(monsterName,monsterHP,monsterMP);
+            MonsterObserver currentMonsterObserver= playerMonstersStatsToDisplay.get(i);
+            Label currentHPLabel=currentMonsterObserver.getCurrentHPStat();
+            Label currentMPLabel=currentMonsterObserver.getCurrentMPStat();
+            Label monsterNameLabel=currentMonsterObserver.getMonsterName();
+            Label currentHPIdentifier=new Label();
+            Label currentMPIdentifier=new Label();
+            currentHPIdentifier.setFont(gameboyFont);
+            currentMPIdentifier.setFont(gameboyFont);
+            currentHPLabel.setFont(gameboyFont);
+            currentMPLabel.setFont(gameboyFont);
+            monsterNameLabel.setFont(gameboyFont);
+            currentHPIdentifier.setText("HP: ");
+            currentMPIdentifier.setText("MP: ");
+            currentHPIdentifier.setLayoutY(SCENE_LENGTH/16);
+            currentMPIdentifier.setLayoutY(2*SCENE_LENGTH/16);
+            currentMonsterObserver.getCurrentHPStat().setLayoutY(SCENE_LENGTH/16);
+            currentMonsterObserver.getCurrentMPStat().setLayoutY(2*SCENE_LENGTH/16);
+            currentHPLabel.setLayoutX(150);
+            currentMPLabel.setLayoutX(150);
+            monsterStatDisplay.getChildren().addAll(currentHPLabel,currentMPLabel,monsterNameLabel,currentHPIdentifier,currentMPIdentifier);
             fightScene.getChildren().add(monsterStatDisplay);
-            monsterObserverToMonsterStatDisplay.put(playerMonstersStatsToDisplay.get(i),monsterStatDisplay);
         }
     }
-    public void updatePlayerMonsterStats(MonsterObserver monsterObserver){
-        Group monsterStatDisplay=monsterObserverToMonsterStatDisplay.get(monsterObserver);
-        monsterStatDisplay.getChildren().clear();
-        Label monsterName=new Label();
-        monsterName.setText(String.valueOf(monsterObserver.getMonsterName()));
-        monsterName.setLayoutY(0);
-        monsterName.setFont(gameboyFont);
-        Label monsterHP=new Label();
-        monsterHP.setText("HP: "+String.valueOf(monsterObserver.getCurrentHPStat()));
-        monsterHP.setLayoutY(SCENE_LENGTH/16);
-        monsterHP.setFont(gameboyFont);
-        Label monsterMP=new Label();
-        monsterMP.setText("MP: "+String.valueOf(monsterObserver.getCurrentMPStat()));
-        monsterMP.setLayoutY(2*SCENE_LENGTH/16);
-        monsterMP.setFont(gameboyFont);
-        monsterStatDisplay.getChildren().addAll(monsterName,monsterHP,monsterMP);
-    }
-
 
 
 }

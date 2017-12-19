@@ -1,8 +1,10 @@
 package Scenes.FightScene;
 
 import Model.BattleMediator.BattleMediator;
+import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
 
 import static Scenes.FightScene.FightScene.SCENE_LENGTH;
 import static Scenes.FightScene.FightScene.gameboyFont;
@@ -10,8 +12,8 @@ import static Scenes.FightScene.FightScene.gameboyFont;
 public class FightSceneController {
     Group fightScene=null;
     BattleMediator battleMediator=null;
-    FightSceneController(Group fightScene,BattleMediator battleMediator){
-        this.fightScene=fightScene;
+    FightSceneController(FightScene fightScene,BattleMediator battleMediator){
+        this.fightScene=fightScene.getScene();
         this.battleMediator=battleMediator;
         addFightCommand();
     }
@@ -20,6 +22,13 @@ public class FightSceneController {
         fightMenu.setLayoutY(2*SCENE_LENGTH/3);
         Label fight=new Label();
         fight.setText("FIGHT");
+        fight.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                battleMediator.autoFight();
+                System.out.println("Hit");
+            }
+        });
         fight.setFont(gameboyFont);
         Label command=new Label();
         command.setLayoutY(SCENE_LENGTH/12);

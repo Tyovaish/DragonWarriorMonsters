@@ -23,6 +23,7 @@ public class Monster {
     public void removeSkill(String skillName){
         skills.removeSkill(skillName);
     }
+    public Skill getSkill(String skillName){return skills.getSkill(skillName);}
     public void addAttribute(Attribute attribute){
         attributes.addAttribute(attribute);
     }
@@ -60,5 +61,9 @@ public class Monster {
     public void setMonsterName(String nextMonsterName){attributes.setAttributeValue("monsterName",nextMonsterName);}
     public int getMaxAGIStat() {
         return (int) attributes.getAttributeValue("AGI");
+    }
+
+    public void setCurrentHPStat(int nextHPValue) {
+       attributes.setAttributeValue("currentHP",nextHPValue);
     }
 }

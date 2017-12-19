@@ -36,4 +36,5 @@ public class AttributeList<T> {
     public Attribute get(int attributePosition){
         return attributes.get(attributePosition);
     }
+    public int size(){return attributes.size();}
 }
