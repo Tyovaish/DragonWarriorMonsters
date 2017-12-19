@@ -8,6 +8,10 @@ public class Skill {
     String skillName;
     String skillType;
     ArrayList<Attribute> attributes=new ArrayList<Attribute>();
+    public Skill(String skillName,String skillType){
+        this.skillName=skillName;
+        this.skillType=skillType;
+    }
     public String getSkillName(){
         return skillName;
     }

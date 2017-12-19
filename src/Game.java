@@ -6,18 +6,14 @@
 import Model.Attributes.Attribute;
 import Model.Monster.Monster;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.StackPane;
 import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -26,18 +22,14 @@ import java.net.MalformedURLException;
 
 public class Game extends Application{
     final static Font gameboyFont=Font.loadFont("file:C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\Font\\GameBoy.ttf", 50);
-    public final int SCENE_WIDTH=1000;
-    public final int SCENE_LENGTH=1000;
-    @Override
-    public void init() throws Exception{
-
-    }
+    public static int SCENE_WIDTH=1000;
+    public static int SCENE_LENGTH=1000;
     @Override
     public void start(Stage primaryStage) {
         Label btn = new Label();
         btn.setFont(gameboyFont);
         Monster monster=new Monster();
-        monster.addAttribute(new Attribute("HP",12));
+        monster.addAttribute(new Attribute("maxHP",12));
         btn.setText(String.valueOf(monster.getMaxHPStat()));
         btn.setLayoutX(0);
         btn.setOnMouseClicked(new EventHandler<MouseEvent>() {
@@ -57,18 +49,10 @@ public class Game extends Application{
         text.setFont(gameboyFont);
         text.setText("HP");
         Group root = new Group();
-        StackPane holder = new StackPane();
-        holder.setPrefSize(300,300);
         // load the image
         File file = new File("C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\Model\\Monster\\MonsterAssets\\battleSprites\\akubar.png");
         Image image = new Image(file.toURI().toString());
         ImageView imageView=new ImageView();
-        imageView.setOnMouseClicked(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                System.out.println("Attacking akubar");
-            }
-        });
         imageView.setImage(image);
         imageView.setX(0);
         imageView.setY(SCENE_WIDTH/3-100);
@@ -82,6 +66,8 @@ public class Game extends Application{
             public void handle(MouseEvent event) {
                 System.out.println("Attacking akubar");
             }
+
+
         });
         imageView2.setImage(image2);
         imageView2.setX(SCENE_LENGTH/3);
@@ -90,6 +76,17 @@ public class Game extends Application{
         imageView2.setFitWidth(SCENE_WIDTH/3);
         // simple displays ImageView the image as is
         root.getChildren().addAll(btn,imageView,imageView2,text);
+        imageView.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println("Attacking akubar");
+                if(root.getChildren().contains(imageView)) {
+                    root.getChildren().remove(imageView);
+                } else {
+                    root.getChildren().add(imageView);
+                }
+            }
+        });
         Scene scene = new Scene(root, SCENE_WIDTH, SCENE_LENGTH);
         primaryStage.setScene(scene);
         primaryStage.show();

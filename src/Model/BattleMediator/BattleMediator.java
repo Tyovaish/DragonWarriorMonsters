@@ -12,7 +12,8 @@ public class BattleMediator {
     Player player;
     ArrayList<Monster> playerMonsters=new ArrayList<Monster>();
     ArrayList<Monster> enemyMonsters=new ArrayList<Monster>();
-    ArrayList<MonsterTurn> monsterTurns=new ArrayList<MonsterTurn>();
+    ArrayList<MonsterTurn> playerMonsterTurns=new ArrayList<MonsterTurn>();
+    ArrayList<MonsterTurn> enemyMonsterTurns=new ArrayList<MonsterTurn>();
     int currentMonsterIndex=0;
 
     public BattleMediator(Player player,ArrayList < Monster > enemyMonsters) {
@@ -21,36 +22,32 @@ public class BattleMediator {
         this.enemyMonsters=enemyMonsters;
     }
 
-    private void setMoveOrder(){
+    public ArrayList<MonsterObserver> getEnemyMonsterObservers() {
+        ArrayList<MonsterObserver> monsterObservers=new ArrayList<MonsterObserver>();
+        for(int i=0; i<enemyMonsters.size();i++){
+            monsterObservers.add(enemyMonsters.get(i).getMonsterObserver());
+        }
+        return monsterObservers;
+    }
+
+    public ArrayList<MonsterObserver> getPlayerMonsterObservers() {
+        ArrayList<MonsterObserver> monsterObservers=new ArrayList<MonsterObserver>();
+        for(int i=0; i<playerMonsters.size();i++){
+            monsterObservers.add(playerMonsters.get(i).getMonsterObserver());
+        }
+        return monsterObservers;
+    }
+    public void autoFight(){
+        for(int i=0;i<playerMonsters.size();i++){
+        }
 
     }
+    private ArrayList<MonsterTurn> setMoveOrder(){
+            return null;
+    }
+
     private void addEnemyMonsterMoves(){
 
-    }
-    public ArrayList<MonsterTurn> getCurrentMonsterSkills(){
-       SkillList skills=playerMonsters.get(currentMonsterIndex).getAllSkills();
-        ArrayList<MonsterTurn> monsterTurns=new ArrayList<MonsterTurn>();
-        for(int i=0;i<skills.size();i++){
-            MonsterTurn monsterTurn=new MonsterTurn();
-            Skill skillToAdd=skills.get(i);
-            monsterTurn.setSkill(skillToAdd);
-            monsterTurns.add(monsterTurn);
-        }
-        return monsterTurns;
-    }
-
-
-    public ArrayList<Monster> getEnemyMonsters() {
-        return enemyMonsters;
-    }
-
-    public void removePreviousMonsterTurn(){
-        monsterTurns.remove(monsterTurns.size()-1);
-        --currentMonsterIndex;
-    }
-    public void executeBattle(){
-        addEnemyMonsterMoves();
-        setMoveOrder();
     }
 
 

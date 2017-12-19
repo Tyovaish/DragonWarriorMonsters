@@ -6,7 +6,7 @@ public class AttributeList<T> {
     ArrayList<Attribute> attributes=new ArrayList<Attribute>();
     public Attribute getAttribute(String attributeName) {
         for(int i=0;i<attributes.size();++i){
-            if(attributes.get(i).getAttributeName()==attributeName){
+            if(attributes.get(i).getAttributeName().compareTo(attributeName)==0){
                 return attributes.get(i);
             }
         }

@@ -35,21 +35,30 @@ public class Monster {
     public AttributeList getAllAttributes() {
         return attributes;
     }
-
     public String getSpeciesName(){
         return (String) attributes.getAttributeValue("species");
     }
-
     public int getAgilityStat() {
         return (int) attributes.getAttributeValue("AGI") ;
     }
     public int getMaxHPStat(){
-        return (int) attributes.getAttributeValue("HP");
+        return (int) attributes.getAttributeValue("maxHP");
     }
     public int getCurrentHPStat(){
         return (int) attributes.getAttributeValue("currentHP");
     }
     public void setMaxHPStat(int nextMaxHPValue){
-        attributes.setAttributeValue("HP",nextMaxHPValue);
+        attributes.setAttributeValue("maxHP",nextMaxHPValue);
+    }
+    public int getMaxMPStat(){
+       return (int) attributes.getAttributeValue("maxMP");
+    }
+    public void setMaxMPStat(int nextMaxMPValue){
+        attributes.setAttributeValue("maxMP",nextMaxMPValue);
+    }
+    public String getMonsterName(){return (String) attributes.getAttributeValue("monsterName");}
+    public void setMonsterName(String nextMonsterName){attributes.setAttributeValue("monsterName",nextMonsterName);}
+    public int getMaxAGIStat() {
+        return (int) attributes.getAttributeValue("AGI");
     }
 }
