@@ -21,9 +21,6 @@ public class MonsterTurn {
     public void setSkill(Skill skill){
         this.skill=skill;
     }
-    public int getSpeed(){
-        return (int) attackingMonster.getAgilityStat();
-    }
     public void execute(){
             defendingMonster.setCurrentHPStat(defendingMonster.getCurrentHPStat()-1);
             System.out.println(defendingMonster.getCurrentHPStat());

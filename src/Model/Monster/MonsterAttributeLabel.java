@@ -12,7 +12,7 @@ public class MonsterAttributeLabel {
         public MonsterAttributeLabel(Attribute attribute){
             this.attribute=attribute;
             this.statImageView=new Label();
-            this.statImageView.setText(String.valueOf(attribute.getAttributeValue()));
+            this.statImageView.setText(String.valueOf(attribute.getAttributeValue()).toUpperCase());
         }
         public String getAttributeName(){
             return attribute.getAttributeName();

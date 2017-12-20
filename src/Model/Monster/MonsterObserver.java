@@ -1,6 +1,7 @@
 package Model.Monster;
 
 import Model.Attributes.AttributeList;
+import Model.Skill.SkillList;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -11,6 +12,7 @@ public class MonsterObserver{
     final String monsterAssetLocation="C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\Model\\Monster\\MonsterAssets\\battleSprites\\";
     ImageView monsterView=null;
     ArrayList<MonsterAttributeLabel> monsterAttributeLabels=new ArrayList<MonsterAttributeLabel>();
+    ArrayList<MonsterSkillLabel> monsterSkillLabels=new ArrayList<>();
 
     public MonsterObserver(Monster monster){
         String spriteLocation=monsterAssetLocation+monster.getSpeciesName()+".png";
@@ -20,6 +22,7 @@ public class MonsterObserver{
         this.monsterView=new ImageView();
         this.monsterView.setImage(monsterSpriteImage);
         createAttributeLabels(monster.getAllAttributes());
+        createSkillLabels(monster.getAllSkills());
 
     }
     public ImageView getImageView(){
@@ -37,7 +40,11 @@ public class MonsterObserver{
         for(int i=0;i<attributeList.size();i++){
                 monsterAttributeLabels.add(new MonsterAttributeLabel(attributeList.get(i)));
         }
-
+    }
+    private void createSkillLabels(SkillList skillList) {
+        for(int i=0;i<skillList.size();i++){
+            monsterSkillLabels.add(new MonsterSkillLabel(skillList.get(i)));
+        }
     }
     private Label getAttributeLabel(String attributeName){
         for(int i=0;i<monsterAttributeLabels.size();i++){
@@ -46,6 +53,9 @@ public class MonsterObserver{
             }
         }
         return null;
+    }
+    public ArrayList<MonsterSkillLabel> getAllSkillLabels(){
+        return monsterSkillLabels;
     }
 
 
