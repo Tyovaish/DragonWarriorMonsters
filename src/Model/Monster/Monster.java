@@ -6,6 +6,7 @@ import Model.Skill.Skill;
 import Model.Skill.SkillList;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Monster {
     MonsterObserver monsterObserver;
@@ -23,6 +24,7 @@ public class Monster {
     public void removeSkill(String skillName){
         skills.removeSkill(skillName);
     }
+    public Skill getSkill(String skillName){return skills.getSkill(skillName);}
     public void addAttribute(Attribute attribute){
         attributes.addAttribute(attribute);
     }
@@ -53,12 +55,17 @@ public class Monster {
     public int getMaxMPStat(){
        return (int) attributes.getAttributeValue("maxMP");
     }
-    public void setMaxMPStat(int nextMaxMPValue){
-        attributes.setAttributeValue("maxMP",nextMaxMPValue);
-    }
+    public void setMaxMPStat(int nextMaxMPValue){ attributes.setAttributeValue("maxMP",nextMaxMPValue); }
     public String getMonsterName(){return (String) attributes.getAttributeValue("monsterName");}
     public void setMonsterName(String nextMonsterName){attributes.setAttributeValue("monsterName",nextMonsterName);}
     public int getMaxAGIStat() {
         return (int) attributes.getAttributeValue("AGI");
+    }
+    public void setCurrentHPStat(int nextHPValue) {
+       attributes.setAttributeValue("currentHP",nextHPValue);
+    }
+    public Skill getRandomSkill(){
+        int randomSkill=new Random().nextInt(skills.size());
+        return skills.get(randomSkill);
     }
 }

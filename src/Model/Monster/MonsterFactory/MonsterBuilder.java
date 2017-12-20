@@ -12,9 +12,9 @@ public class MonsterBuilder {
     int level=1;
     public Monster createMonster(String monsterSpeciesName){
         createdMonster= MonsterStatFileParser.getMonster(monsterSpeciesName.toLowerCase());
-        createdMonster.attachMonsterObserver(new MonsterObserver(createdMonster));
-        createdMonster.addAttribute(new Attribute("monsterName",monsterName));
+        createdMonster.addAttribute(new Attribute("monsterName",monsterSpeciesName));
         createdMonster.addSkill(new Skill("Physical Attack","physical"));
+        createdMonster.attachMonsterObserver(new MonsterObserver(createdMonster));
         return createdMonster;
     }
     public void setLevel(int level){

@@ -1,14 +1,19 @@
 package Model.Monster;
 
 import Model.Attributes.AttributeList;
+import Model.Skill.SkillList;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import java.io.File;
+import java.util.ArrayList;
 
 public class MonsterObserver{
     final String monsterAssetLocation="C:\\Users\\Trevor\\IdeaProjects\\DragonWarriorMonsters\\src\\Model\\Monster\\MonsterAssets\\battleSprites\\";
     ImageView monsterView=null;
-    AttributeList attributes=new AttributeList();
+    ArrayList<MonsterAttributeLabel> monsterAttributeLabels=new ArrayList<MonsterAttributeLabel>();
+    ArrayList<MonsterSkillLabel> monsterSkillLabels=new ArrayList<>();
+
     public MonsterObserver(Monster monster){
         String spriteLocation=monsterAssetLocation+monster.getSpeciesName()+".png";
         System.out.println(spriteLocation);
@@ -16,32 +21,41 @@ public class MonsterObserver{
         Image monsterSpriteImage = new Image(file.toURI().toString());
         this.monsterView=new ImageView();
         this.monsterView.setImage(monsterSpriteImage);
-        this.attributes=monster.getAllAttributes();
+        createAttributeLabels(monster.getAllAttributes());
+        createSkillLabels(monster.getAllSkills());
+
     }
     public ImageView getImageView(){
         return monsterView;
     }
-    public String getSpeciesName(){
-        return (String) attributes.getAttributeValue("species");
+    public Label getMonsterName(){return getAttributeLabel("monsterName");}
+    public Label getCurrentHPStat(){return getAttributeLabel("currentHP");}
+    public Label getCurrentMPStat(){ return getAttributeLabel("currentMP");}
+    public void updateAttributes(){
+            for(int i=0;i<monsterAttributeLabels.size();i++){
+                monsterAttributeLabels.get(i).update();
+            }
     }
-    public String getMonsterName(){ return (String) attributes.getAttributeValue("monsterName");}
-    public int getAgilityStat() {
-        return (int) attributes.getAttributeValue("AGI") ;
+    private void createAttributeLabels(AttributeList attributeList){
+        for(int i=0;i<attributeList.size();i++){
+                monsterAttributeLabels.add(new MonsterAttributeLabel(attributeList.get(i)));
+        }
     }
-    public int getMaxHPStat(){
-        return (int) attributes.getAttributeValue("HP");
+    private void createSkillLabels(SkillList skillList) {
+        for(int i=0;i<skillList.size();i++){
+            monsterSkillLabels.add(new MonsterSkillLabel(skillList.get(i)));
+        }
     }
-    public int getCurrentHPStat(){
-        return (int) attributes.getAttributeValue("currentHP");
+    private Label getAttributeLabel(String attributeName){
+        for(int i=0;i<monsterAttributeLabels.size();i++){
+            if(monsterAttributeLabels.get(i).getAttributeName().compareTo(attributeName)==0){
+                return monsterAttributeLabels.get(i).getLabel();
+            }
+        }
+        return null;
     }
-    public int getMaxMPStat(){
-        return (int) attributes.getAttributeValue("MP");
-    }
-    public int getCurrentMPStat(){
-        return (int) attributes.getAttributeValue("currentMP");
-    }
-    public void update(Monster monster){
-        attributes=monster.getAllAttributes();
+    public ArrayList<MonsterSkillLabel> getAllSkillLabels(){
+        return monsterSkillLabels;
     }
 
 
